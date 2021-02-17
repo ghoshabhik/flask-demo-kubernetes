@@ -14,7 +14,7 @@ kubectl config current-context
 ```
 4. Create image pull secret: 
 ```bash
-kubectl create secret docker-registry regcred --docker-username=abhikghosh --docker-password=BlackLenovo123 --docker-email=avik5324@gmail.com -n default
+kubectl create secret docker-registry regcred --docker-username=<USERNAME> --docker-password=<PASSWORD> --docker-email=<EMAIL> -n default
 ```
 5. Create Deployment: 
 ```bash
