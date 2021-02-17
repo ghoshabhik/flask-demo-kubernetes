@@ -6,7 +6,7 @@ ibmcloud login -a cloud.ibm.com -r eu-de -g Default
 ```
 2. Configure Kubernetes cluster: 
 ```bash
-ibmcloud ks cluster config --cluster c0lvihhf03gpla7tro20
+ibmcloud ks cluster config --cluster <CLUSTERNAME>
 ```
 3. Setting config: 
 ```bash
