@@ -24,7 +24,7 @@ kubectl create -f deployment.yaml
 ```bash
 kubectl create -f service.yaml
 ```
-7. We used NodePort type in the service yaml. Check Node external IP: 
+7. Check Node external IP: 
 ```bash
 kubectl get nodes -o wide
 ```
@@ -32,5 +32,5 @@ kubectl get nodes -o wide
 ```bash
 kubectl get service
 ```
-9.  Open your application on http://<node-external-ip>:<expose-port>
+9.  Open your application on http://"node-external-ip":"expose-port"
 
